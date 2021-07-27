@@ -1,0 +1,15 @@
+prompt("Please Enter: ", "")
+confirm()
+
+var one=Math.ceil(4.2); 
+alert(one);
+var two=Math.floor(4.7);
+alert(two); 
+var three=Math.round(4.2);
+alert(three);
+var four=Math.pow(2,4);
+alert(four);
+var five=Math.sqrt(9);
+alert(five);
+var six=Math.random;
+alert(six);
