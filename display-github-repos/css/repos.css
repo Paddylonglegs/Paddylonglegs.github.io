@@ -1,0 +1,39 @@
+span.name a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+span.name a:hover {
+  text-decoration: underline;
+}
+
+span.description {
+  color:#21262d;;
+  font-size: 14px;
+}
+
+span#icon_repos {
+  margin-top: 5px;
+  float: left;
+}
+
+div.content {
+  padding: 8px;
+  border:rgba(27,31,35,.15);
+  box-shadow:inset 0 .15em .3em rgba(27,31,35,.15);
+  background: #21262d;
+}
+
+div.content ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+svg{
+  color:white;
+  background-color: white;
+}
