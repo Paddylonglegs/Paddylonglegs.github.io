@@ -14,7 +14,8 @@
 
 [data-termynal] {
     width: 750px;
-    max-width: 120%;
+    max-width: 130%;
+    margin-left: -100px;
     background: var(--color-bg);
     color: var(--color-text);
     font-size: 18px;
