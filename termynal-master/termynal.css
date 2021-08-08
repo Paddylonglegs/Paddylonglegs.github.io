@@ -30,7 +30,7 @@
     content: '$_';
     position: absolute;
     top: 0px;
-    left: 15px;
+    left: 3px;
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -68,6 +68,7 @@
 
 [data-ty="input"]:before { /*where commands start*/
     content: '$ ';
+    color:white;
     margin-left:  -10px;
 }
 
