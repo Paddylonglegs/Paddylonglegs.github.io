@@ -58,6 +58,11 @@ a:hover
     min-height: 100vh;
   }
 
+#termynal{
+  width:  150%;
+  height: 100%;
+}
+
 span{
   word-wrap: break-word;
   width: 103%;
