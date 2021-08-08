@@ -88,10 +88,6 @@ span{
     height: 2.5rem/* Height of the footer */
  } 
 
-div.thm_font{
-  width: 50%; /*sorry thm badges :(, mobile users*/
-}
-
 #github{
   display: flex;
   justify-content: center;
