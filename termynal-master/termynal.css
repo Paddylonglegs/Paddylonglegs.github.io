@@ -29,7 +29,7 @@
 [data-termynal]:before {
     content: '$_';
     position: absolute;
-    top: 15px;
+    top: 0px;
     left: 15px;
     display: inline-block;
     width: 15px;
@@ -38,7 +38,7 @@
 }
 
 [data-termynal]:after {
-    content: 'kali@kali: -/Desktop';
+    content: 'kali@kali: -';
     position: absolute;
     color: var(--color-text-subtle);
     top: 5px;
@@ -59,14 +59,16 @@
     vertical-align: middle;
 }
 
-[data-ty="input"]:before,
+[data-ty="input"]:before, /*where command return starts*/
 [data-ty-prompt]:before {
-    margin-right: 0.75em;
+    margin-right: 0rem;
+    margin-left: -29px;
     color: var(--color-text-subtle);
 }
 
-[data-ty="input"]:before {
-    content: '$';
+[data-ty="input"]:before { /*where commands start*/
+    content: '$ ';
+    margin-left:  -10px;
 }
 
 [data-ty][data-ty-prompt]:before {
