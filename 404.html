@@ -96,17 +96,6 @@
           
       }
 
-      #centeradiv{
-          text-align: left;
-          width:50%; /* 50% of the parent div*/
-          margin:10px auto;
-      }
-
-      .btn{
-          width: 50px;
-          height: 50px;
-      }
-
       #content-wrap {
           padding-bottom: 2.5rem;    /* Footer height */
           position: relative;
@@ -212,33 +201,32 @@
 
   <div id="content-wrap">
 
-    <div class="container-fluid" id="centeradiv" style="width: 50%;">
-        <div class="container p-3 my-3 text-white" id="text404">
-            <div class="row">
-                <div class="col-sm-12">
-                  <div id="home" style="text-align:center;">
-                    <h1 class="header404">404</h1>
-                  </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                  <div id="home" style="text-align:center;">
-                    <p class="header404">Page Not Found</p>
-                  </div>
-                </div>
-            </div>
-            <div id="button">
-                <div class="col-sm-12">
-                  <img src="matrix-1735640_1920.jpg" class="img-fluid" alt="matrix map of world"> <!--https://pixabay.com/illustrations/matrix-code-data-networking-1735640/-->
-                  <form action="index.html" style="text-align: center">
-                    <input type="submit" value="Go To Home Page" id="hmbtn"/>
-                  </form>
-                </div>
+      <div class="row container-fluid justify-content-center">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div id="home" style="text-align:center;">
+               <h1 class="header404">404</h1>
             </div>
         </div>
-        
-    </div>
+      </div>
+           
+      <div class="row container-fluid justify-content-center">
+          <div class="col-sm-6 col-md-6 col-lg-6">
+              <div id="home" style="text-align:center;">
+                  <p class="header404">Page Not Found</p>
+              </div>
+          </div>
+      </div>
+      <div class="row container-fluid justify-content-center">
+            
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <img src="matrix-1735640_1920.jpg" class="img-fluid" alt="matrix map of world"> <!--https://pixabay.com/illustrations/matrix-code-data-networking-1735640/-->
+                </div>
+      </div>
+      <div class="row container-fluid justify-content-center py-3">
+          <form action="index.html" style="text-align: center">
+            <input type="submit" value="Go To Home Page" id="hmbtn"/>
+          </form>
+      </div>  
 
       <!-- Footer -->
     <footer class="page-footer font-small bg-dark pt-4" id="footer">
@@ -281,13 +269,13 @@
               </div>
           </div>
        </div>
-              <div class="footer-copyright text-center py-3 bg-dark" style="color: white;">© 2021 Copyright:
-                <a style="color: white;" id="navbar"> Patrick Collins </a>
+        <div class="footer-copyright text-center py-3 bg-dark" style="color: white;">© 2021 Copyright:
+          <a style="color: white;" id="navbar"> Patrick Collins </a>
               
-                <div class="text-center py-3 bg-dark">
-                  <a href="PrivacyPolicy.html" id="navbar">Privacy Policy</a>
-                </div>
-            </div>
+          <div class="text-center py-3 bg-dark">
+             <a href="PrivacyPolicy.html" id="navbar">Privacy Policy</a>
+          </div>
+        </div>
     </footer>
   </div>
 </body> 
