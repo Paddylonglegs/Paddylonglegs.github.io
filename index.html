@@ -90,21 +90,26 @@
   </nav>
 
   <div id="content-wrap">
-
-    <div class="container-fluid" id="centeradiv" style="width: 50%;">
-      
-        <div id="termynal" data-termynal="" class="termynal-window" style="width: 150%;"> <!--Commands are -20 to the span, return data are -29 to the span-->
-          <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">whoami</span>
-          <span data-ty style="margin-left: -38px;width: 110%;">Third year BSc(hons) Ethical Hacking student at Abertay University in Dundee, Scotland. Raspberry Pi enthusiast and movie lover.</span>   
-          <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">python -m webbrowser https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/</span>
-          <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">ls</span>
-          <span data-ty style="margin-left: -38px;width: 110%;">WhatIsThisWebsite.txt</span>
-          <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">cat WhatIsThisWebsite.txt</span>
-          <span data-ty style="margin-left: -38px;width: 110%;">This is a place for me to post anything I'm currently doing. Whether it be a project, or writeups for CTF challenges/events. Check it out! </span>
+   
+      <div class="row container-fluid justify-content-center py-3">
+   
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div id="termynal" data-termynal="" class="termynal-window"> <!--Commands are -29 to the span, return data are -38 to the span-->
+              <span data-ty style="margin-left: -35px; margin-top: -40px; font-size: small; font-weight: bold;">File Actions Edit View Help</span>
+              <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">$ whoami</span>
+              <span data-ty style="margin-left: -38px;width: 110%;">Third year BSc(hons) Ethical Hacking student at Abertay University in Dundee, Scotland. Raspberry Pi enthusiast and movie lover.</span>   
+              <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">$ python -m webbrowser https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/</span>
+              <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">$ ls</span>
+              <span data-ty style="margin-left: -38px;width: 110%;">WhatIsThisWebsite.txt</span>
+              <span data-ty="input" id="commands" style="margin-left: -29px;width: 110%;">$ cat WhatIsThisWebsite.txt</span>
+              <span data-ty style="margin-left: -38px;width: 110%;">This is a place for me to post anything I'm currently doing. Whether it be a project, or writeups for CTF challenges/events. Check it out! </span>
+            </div>
         </div>
+        </div>
+     
 
       <script src="termynal-master/termynal.js" data-termynal-container="#termynal"></script> <!-- Love this! https://github.com/ines/termynal-->   
-    </div>
+
 
       <!-- Footer -->
     <footer class="page-footer font-small bg-dark pt-4" id="footer">
