@@ -59,7 +59,7 @@ a:hover
   }
 
 #termynal{
-  width:  150%;
+  width:  120%;
   height: 100%;
 }
 
@@ -68,7 +68,7 @@ span{
   width: 103%;
 }
 
-#course{ /*If I want to add in the future*/
+#buttoncss{ /*If I want to add in the future*/
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -78,7 +78,7 @@ span{
 }
 
 #commands{
-  color:#a8e063;
+  color:white;
 }
 
 #footer {
