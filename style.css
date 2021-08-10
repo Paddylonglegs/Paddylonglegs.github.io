@@ -61,6 +61,7 @@ a:hover
 #termynal{
   width:  120%;
   height: 100%;
+  margin-left: 15px;
 }
 
 span{
