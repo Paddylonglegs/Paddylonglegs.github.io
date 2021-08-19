@@ -1,0 +1,283 @@
+body {
+    background: #107004 url('floral-sham.png'); /*https://www.freepik.com/free-vector/ornamental-floral-background_838718.htm*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*nav bar*/
+
+
+#navbar a:hover
+{
+    color: #cde3c4;
+}
+
+.navbar-custom{
+  background-color: #107004;
+}
+
+#nav-color{
+  background-color: #107004;
+}
+
+#nav-background{
+  background-color: #107004;
+}
+
+#navlinks{
+  color: #ffffff;
+  font-size: 16px;
+  text-shadow: 1px 1px #000000;
+  font-weight: bold;
+}
+
+img#lep:hover{
+    margin-top: -60px;
+}
+
+.dropdown-item:hover{color:#cde3c4 !important;}
+
+.drop-background{
+  color: #ffffff; font-size: 16px; font-weight: bold;  text-shadow: 1px 1px #000000;
+}
+
+.dropdown-custom{
+    color: #ffffff !important;
+    font-size: 16px;
+    text-shadow: 1px 1px #000000;
+    font-weight: bold;
+}
+
+.dropdown-custom:hover{color:#cde3c4 !important;}
+
+#name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#ffffff;
+    text-shadow: 1px 1px #000000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#name:hover{color:#cde3c4 !important;}
+
+/*index*/
+#termynal{
+  width:  120%;
+  height: 100%;
+  margin-left: 15px;
+}
+
+span#kalitool:hover{
+    color: rgb(1, 196, 255); /*kali color :)*/
+}
+
+span{
+  word-wrap: break-word;
+  width: 103%;
+}
+
+#buttoncss{ /*If I want to add in the future*/
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+#commands{
+  color:white;
+}
+
+#dollar{
+  text-align: left;
+  color:white;
+}
+
+/*Blog*/
+
+.pagination{
+  background-color: #cde3c4;
+  position:relative;
+  bottom:0;
+  height: 2.5rem; /* Height of the footer */
+  padding: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #107004;
+  width:100%;
+  text-align: center;
+}
+.pagination li a.page-link{
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    width: 30px;
+    padding: 0;
+    margin: 0 5px 6px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.pagination li a.page-link:hover,
+.pagination li a.page-link:focus,
+.pagination li.active a.page-link:hover,
+.pagination li.active a.page-link{
+    color: #fff;
+    background: #000;
+    text-shadow: 0 0 6px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.pagination li a.page-link:before{
+    content: '';
+    background: #107004;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.pagination li a.page-link:hover:before,
+.pagination li a.page-link:focus:before,
+.pagination li.active a.page-link:hover:before,
+.pagination li.active a.page-link:before{
+    height: 100%;
+}
+  
+
+#shadowtext{
+    color: white;
+    text-shadow: 1px 1px #000000;
+    font-weight: bold;
+    font-size: medium
+}
+
+/*Projects*/
+.card-img-top {
+  width: 100%;
+  height: 15vh;
+  object-fit:contain;
+}
+
+/*Socials*/
+.social-custom{
+  background-color: #cde3c4;
+  padding: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #107004;
+}
+
+.twitter-button{
+    text-align: center;
+    width:50%; /* 70% of the parent*/
+    margin:10px auto;
+    
+}
+
+span.thm_stat{
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  margin-left:-5px;
+}
+
+#github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span.name{
+  margin-left: -8px;
+}
+
+.hackthebox-noidclass > div:nth-child(2){
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+
+ /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*About Me*/
+.aboutmedropdown{
+  background-color: #cde3c4;
+  padding: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #107004;
+}
+
+button.accordion-button[aria-expanded="true"] {
+  background-color:#cde3c4;
+  color:black;
+}
+
+a.note{
+  background-color: black;
+}
+
+#centeradiv{
+    text-align: left;
+    width:50%; /* 50% of the parent div*/
+    margin:10px;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+    position: relative;
+    min-height: 100vh;
+  }
+
+/*Footer*/
+#footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height: 2.5rem /* Height of the footer */
+ } 
+
+
+/*Random elements styling*/
+iframe
+{ 
+  min-width: 100%; 
+  min-height: 100%;
+  right: 0; 
+  bottom: 0;
+  width: auto; 
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+}
