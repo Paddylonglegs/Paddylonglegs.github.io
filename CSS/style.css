@@ -168,6 +168,27 @@ span{
   object-fit:contain;
 }
 
+.btn-nav{
+  position:sticky;
+  height:100vh;
+  top:0;
+  color:white;
+  float:left;
+}
+
+.burger{
+  width:35px;
+  height:4px;
+  background-color: white;
+  margin: 5px 0;
+  margin-top: 2px;
+  margin-left: -5px;
+}
+
+.offcanvas-body{
+ height: 100vh;
+}
+
 /*Socials*/
 .social-custom{
   background-color: #cde3c4;
