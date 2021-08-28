@@ -172,6 +172,7 @@ span{
   position:sticky;
   height:100vh;
   top:0;
+  z-index: 999;
   color:white;
   float:left;
 }
