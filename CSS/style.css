@@ -182,7 +182,11 @@ span{
   background-color: white;
   margin: 5px 0;
   margin-top: 2px;
-  margin-left: -5px;
+  margin-left: -10px;
+}
+
+.offcanvas{
+  height: 350px;
 }
 
 .offcanvas-body{
