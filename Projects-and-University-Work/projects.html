@@ -74,96 +74,293 @@
 
   <div id="content-wrap">
 
-    <div class="container-fluid py-3">
-      <div class="row">
-        <div class="col-sm-3 col-md-3 col-lg-3 justify-content-center text-center"></div>
-        <div class="col-sm-6 col-md-6 col-lg-6 justify-content-center text-center">
-          <div class="col-sm-12">
-              <h4 class="social-custom" style="text-align: center;color: rgb(0, 0, 0)">All Projects</h4>
+    <button class="btn btn-primary btn-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><div class="burger"></div><div class="burger"></div><div class="burger"></div></button>
+
+    <div class="offcanvas social-custom offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <button type="button" class="btn-close btn-lg text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <div class="offcanvas-header justify-content-center" >
+        <h5 id="offcanvasTopLabel" style="margin-left: -10px; text-decoration: underline;">Projects Navigation</h5>
+      </div>
+      <div class="offcanvas-body">
+        <!--Projects Navigation-->
+        <div class="container-fluid">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+            <div class="col-sm-3 col-md-3 col-lg-3 justify-content-center text-center"></div>
+            <div class="col-sm-3 col-md-3 col-lg-3 justify-content-center text-center">
+              <div class="container-fluid text-center">
+                <p><a href="#Uni">University Projects/Work</a></p>
+                <p><a href="#fir">First Year</a></p>
+                <p><a href="#sec">Second Year</a></p>
+                <p><a href="#thi">Third Year</a></p>
+                <!--<p><a href="#fou">Fourth Year</a></p>-->
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3 justify-content-center text-center">
+              <div class="container-fluid text-center">
+                <p><a href="#personal">Personal Projects</a></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container py-3">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+    <br> <!--Break for burger nav on mobile-->
+    <br>
 
-            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px;">
-              <img src="../CSS/RaspberryPi4Kit.jpg" class="card-img-top img-fluid img-fluid" alt="...">
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-3 justify-content-center text-center"></div>
+          <div class="col-sm-6 col-md-6 col-lg-6 justify-content-center text-center">
+            <div class="col-sm-12">
+                <h4 class="social-custom" id="Uni" style="text-align: center;color: rgb(0, 0, 0)">University Projects/Work</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center">
+            <div class="col-sm-12">
+                <h4 class="social-custom" id="fir" style="text-align: center;color: rgb(0, 0, 0)">First Year</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container py-3">
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/slot-machine.png" class="card-img-top img-fluid img-fluid" alt="Slot Machine Symbols Pattern"> <!--Image by Adam Lane from Pixabay || https://pixabay.com/illustrations/slot-machine-wallpaper-tutti-frutti-1797310/-->
               <div class="card-body">
-                <h5 class="card-title">Portable Hacking Device</h5>
-                <p class="card-text">Coming soon...</p>
+                <h5 class="card-title">Slot Machine</h5>
+                <p class="card-text">All coded using C++, this was my first major program after learning the language for 3 months.</p>
                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
               </div>
             </div>
          
-            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px;">
-              <img src="../CSS/laptop-1839876_1920.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/binaryints.jpg" class="card-img-top img-fluid" alt="Numbers mixed with binary"> <!--Image by Gerd Altmann from Pixabay || https://pixabay.com/illustrations/pay-binary-zero-one-digit-number-4799476/-->
               <div class="card-body">
-                <h5 class="card-title">Creating My Own Website</h5>
-                <p class="card-text">Coming soon...</p>
+                <h5 class="card-title">UDP Calculator</h5>
+                <p class="card-text">Using a UDP client and server to transfer two integers, calculate and return result.</p>
                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
               </div>
             </div>
        
-            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px;">
-              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/arduino.png" class="card-img-top img-fluid" alt="Arduino hardware"> <!--Image by Seven_au from Pixabay || https://pixabay.com/illustrations/arduino-arduino-uno-technology-2168193/-->
               <div class="card-body ">
-                <h5 class="card-title">Project title</h5>
-                <p class="card-text">Project description</p>
-                <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+                <h5 class="card-title">Arduino PIR Motion Sensor</h5>
+                <p class="card-text">An ambitious idea to count how many people were in a room at all times.</p>
+                <a href="#" class="btn btn-primary" style="width: 100%; ">Go to project</a>
               </div>
             </div>
           
-            <div class="card mx-auto social-custom" style="width: 18rem;">
-              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card mx-auto social-custom" style="width: 18rem; height: 100%;">
+              <img src="../CSS/britbombe.jpg" class="card-img-top img-fluid" alt="Bombe Machine"> <!--https://commons.wikimedia.org/wiki/File:TuringBombeBletchleyPark.jpg-->
               <div class="card-body">
-                <h5 class="card-title">Project title</h5>
-                <p class="card-text">Project description</p>
+                <h5 class="card-title">Brute Forcing The Enigma Cipher</h5>
+                <p class="card-text">A python brute force algorithm to encrypt and decrypt Enigma ciphertext.</p>
                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
               </div>
             </div>
        </div>
-     </div>
-    
-      <div class="container py-3">
+      </div>
+      <div class="container-fluid py-3">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
-
-            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px;">
-              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center">
+            <div class="col-sm-12">
+                <h4 class="social-custom" id="sec" style="text-align: center;color: rgb(0, 0, 0)">Second Year</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-3">
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/searching.jpg" class="card-img-top img-fluid" alt="Lost, Found, Searching signpost"> <!--Image by Jan Alexander from Pixabay || https://pixabay.com/photos/lost-found-lost-and-found-searching-1605501/-->
               <div class="card-body">
-                <h5 class="card-title">Project title</h5>
-                <p class="card-text">Project description</p>
+                <h5 class="card-title">String Search Algorithms</h5>
+                <p class="card-text">Comparing efficiency of Rabin-Karp and Boyer-Moore-Horspool algorithms.</p>
                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
               </div>
             </div>
           
-            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px;">
-              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/HTML.jpg" class="card-img-top img-fluid" alt="HTML code"> <!--Image by James Osborne from Pixabay || https://pixabay.com/photos/code-html-digital-coding-web-1076533/-->
               <div class="card-body">
-                <h5 class="card-title">Project title</h5>
-                <p class="card-text">Project description</p>
+                <h5 class="card-title">Dynamic Website Development</h5>
+                <p class="card-text">Building a responsive website using Bootstrap, PHP, HTML, Javascript, AJAX and JQuery.</p>
                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
               </div>
             </div>
       
-            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px;">
-              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/unsecure.png" class="card-img-top img-fluid" alt="multiple padlocks with one open"> <!--Image by methodshop from Pixabay || https://pixabay.com/illustrations/password-security-password-security-4993196/-->
               <div class="card-body ">
-                <h5 class="card-title">Project title</h5>
-                <p class="card-text">Project description</p>
+                <h5 class="card-title">Simulated Penetration Test</h5>
+                <p class="card-text">Testing the security of a company network, reporting vulnerabilities and countermeasures.</p>
                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
               </div>
             </div>
           
-            <div class="card mx-auto social-custom" style="width: 18rem;">
-              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/hourglass.jpg" class="card-img-top img-fluid" alt="hourglass with red sand"> <!--Image by Nile from Pixabay || https://pixabay.com/photos/hourglass-time-hours-clock-620397/-->
               <div class="card-body">
-                <h5 class="card-title">Project title</h5>
-                <p class="card-text">Project description</p>
+                <h5 class="card-title">Threaded Boyer-Moore Algorithm</h5>
+                <p class="card-text">Improving upon my term one project, I decided to thread Boyer-Moore-Horspool.</p>
                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
               </div>
             </div>
+
+            <div class="card mx-auto social-custom" style="width: 18rem; height: 100%;">
+              <img src="../CSS/print.jpg" class="card-img-top img-fluid" alt="fingerprint"> <!--Image by ar130405 from Pixabay || https://pixabay.com/illustrations/finger-fingerprint-security-digital-2081169/-->
+              <div class="card-body">
+                <h5 class="card-title">Digital Forensics Investigation</h5>
+                <p class="card-text">A group investigation and report, using forensic tools on a suspect's disk image to find evidence.</p>
+                <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+              </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid py-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center">
+            <div class="col-sm-12">
+                <h4 class="social-custom" id="thi" style="text-align: center;color: rgb(0, 0, 0)">Third Year (Doing! Wish Me Luck &#128513;)</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-3">
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="gears">
+              <div class="card-body">
+                <h5 class="card-title">Project Title</h5>
+                <p class="card-text">Will upload once finished :)</p>
+                <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+              </div>
+            </div>
+          
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="gears">
+              <div class="card-body">
+                <h5 class="card-title">Project title</h5>
+                <p class="card-text">Will upload once finished :)</p>
+                <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+              </div>
+            </div>
+      
+            <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="gears">
+              <div class="card-body ">
+                <h5 class="card-title">Project title</h5>
+                <p class="card-text">Will upload once finished :)</p>
+                <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+              </div>
+            </div>
+          
+            <div class="card mx-auto social-custom" style="width: 18rem; height: 100%;">
+              <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="gears">
+              <div class="card-body">
+                <h5 class="card-title">Project title</h5>
+                <p class="card-text">Will upload once finished :)</p>
+                <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+              </div>
+            </div>
+         </div>
+      </div>
+      <!-- Soon...
+      <div class="container-fluid py-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 justify-content-center text-center">
+            <div class="col-sm-12">
+                <h4 class="social-custom" id="fou" style="text-align: center;color: rgb(0, 0, 0)">Fourth Year</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+             <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+               <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Project Title</h5>
+                 <p class="card-text">Project description</p>
+                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+               </div>
+             </div>
+           
+             <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+               <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Project title</h5>
+                 <p class="card-text">Project description</p>
+                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+               </div>
+             </div>
+       
+             <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+               <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+               <div class="card-body ">
+                 <h5 class="card-title">Project title</h5>
+                 <p class="card-text">Project description</p>
+                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+               </div>
+             </div>
+           
+             <div class="card mx-auto social-custom" style="width: 18rem; height: 100%;">
+               <img src="../CSS/gear-rack-5682448_1920.jpg" class="card-img-top img-fluid" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Project title</h5>
+                 <p class="card-text">Project description</p>
+                 <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+               </div>
+             </div>
+          </div>
+       </div>-->
+
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-3 justify-content-center text-center"></div>
+          <div class="col-sm-6 col-md-6 col-lg-6 justify-content-center text-center">
+            <div class="col-sm-12">
+                <h4 class="social-custom" id="personal" style="text-align: center;color: rgb(0, 0, 0)">Personal Projects</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+      <div class="container py-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center">
+
+              <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+                <img src="../CSS/RaspberryPi4Kit.jpg" class="card-img-top img-fluid img-fluid" alt="Raspberry Pi4 Kit">
+                <div class="card-body">
+                  <h5 class="card-title">Portable Hacking Device</h5>
+                  <p class="card-text">Wanting to have the option to hack on the go, I used Kali Linux and a Raspberry Pi 4 to create a custom build with everything I might need.</p>
+                  <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+                </div>
+              </div>
+           
+              <div class="card mx-auto social-custom" style="width: 18rem; margin-bottom: 10px; height: 100%;">
+                <img src="../CSS/laptop-1839876_1920.jpg" class="card-img-top img-fluid" alt="Laptop with phone on top"> <!--Image by Pexels from Pixabay || https://pixabay.com/photos/laptop-notebook-cellphone-computer-1839876/-->
+                <div class="card-body">
+                  <h5 class="card-title">Creating My Own Website</h5>
+                  <p class="card-text">By now you will have seen the result of this project, and maybe peeked at the code :). But if you're wondering how & why I got it all set up, this'll show my steps.</p>
+                  <a href="#" class="btn btn-primary" style="width: 100%;">Go to project</a>
+                </div>
+              </div>  
          </div>
       </div>
   
