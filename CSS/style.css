@@ -219,6 +219,7 @@ div.content span.description{
   align-items: center;
   color: white;
   font-weight: bold;
+  margin-left: -10px;
 }
 
 span.name{
