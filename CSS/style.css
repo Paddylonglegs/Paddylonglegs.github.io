@@ -1,10 +1,10 @@
 body {
     background: #107004 url('floral-sham.png') !important; /*https://www.freepik.com/free-vector/ornamental-floral-background_838718.htm*/
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-repeat: repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
 }
 
 /*nav bar*/
