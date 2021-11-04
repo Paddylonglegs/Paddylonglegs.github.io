@@ -1,0 +1,198 @@
+<!Doctype HTML>
+<html lang="en">
+  
+<head>
+    <title>Threaded Boyer-Moore Algorithm - Paddylonglegs</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"> <!--https://www.favicon.cc/?-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patrick Collins'(Paddylonglegs) projects">
+    <!-- Material Design Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!--CSS-->
+     <link rel="stylesheet" href="../../CSS/style.css">
+     <link rel="stylesheet" href="../../CSS/cookies.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!--Javascript-->
+    <script src="../../Scripts/script.js"></script>
+
+    <!--Cookies-->
+    <script type="text/javascript" src="../../Scripts/jquery.ihavecookies.min.js"></script> <!--https://github.com/ketanmistry/ihavecookies-->
+
+</head>
+
+<body> 
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../../CSS/easteregg.png" alt="easteregg" height="36">
+        <img src="../../CSS/LEP.png" alt="Leprechaun" id="lep" style="margin-left: -41px;" height="36">
+      </a>
+      <li id="name">Patrick Collins</li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" id="navlinks" href="../../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../Blog/blog.html" id="navlinks">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle drop-background dropdown-custom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects and University Work
+            </a>
+            <ul class="dropdown-menu" style="color:white;" id="nav-background" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" style="color:white; text-shadow: 1px 1px #000000; font-weight: bold;" id="nav-background" href="../projects.html">Portable Hacking Device</a></li>
+              <li><a class="dropdown-item" style="color:white; text-shadow: 1px 1px #000000; font-weight: bold;" id="nav-background" href="../projects.html">Creating Own Website</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" style="color:white; text-shadow: 1px 1px #000000; font-weight: bold;" id="nav-background" href="../projects.html">All projects</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../socialmedia.html" id="navlinks">Socials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../aboutme.html" id="navlinks">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="content-wrap">
+
+      <div class="container-fluid py-3">
+
+               
+                    <div class="container-fluid py-3">
+                        <div class="row">
+                          <div class="col-sm-3 col-md-3 col-lg-3 justify-content-center text-center"></div>
+                          <div class="col-sm-6 col-md-6 col-lg-6 justify-content-center text-center">
+                            <div class="col-sm-12">
+                                <h4 class="social-custom" style="text-align: center;color: rgb(0, 0, 0)">Threaded Boyer-Moore Algorithm</h4>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+               
+
+                    
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 text-center py-3">
+            
+                <div class="col-sm-9 social-custom mx-auto justify-content-center text-center">
+
+                    <div class="container-fluid"><img src="../../CSS/hourglass.jpg" class="img-fluid" width="400" height="400" alt="hourglass with red sand"></div>
+                    <br>
+
+                    <h2 style="text-decoration: underline">About</h2>
+                    <div class="col-sm-6 mx-auto">
+                      <ul>
+                      <li>Module: CMP202</li>
+                      <li>Title: Data Structures and Algorithms 2</li>
+                      <li>Grade: B+</li>
+                      </ul>
+                    </div>
+                    <br>
+                  
+
+                    <p>In this module I was introduced to the wonderful world of threading. I learned methods to parallelise and speed up a program such as using task farms. For my assignment I had to parallelise a program, choosing CPU multicore or GPU devices. Or even both. I only focused on doing CPU multicore.</p>
+
+                    <p>I wasn't happy with my previous Boyer-Moore-Horspool program as I now knew a much better and efficient way to implement the algorithm. I knew it could be sped up significantly and that's what I set out to do for my assignment.</p>
+
+                    <h2 style="text-decoration: underline">Usage</h2>
+                    <p>This time the user can enter more settings for the Boyer-Moore-Horspool algorithm. Such as:</p>
+
+                     <div class="col-sm-6 mx-auto">
+                        
+                        <ul>
+                        <li>What word to search.</li>
+                        <li>Number of threads to use.</li>
+                        <li>Number of iterations to run.</li>
+                        </ul>
+                      </div>
+
+                    <p>Below is a video demonstration of my program. I chose to search "the", as it took my previous term's program significantly longer to search smaller words. However with threading implemented, you'll see that small words now have no impact on the speed the algorithm searches. Like the previous program, this algorithm also searches the same text file called "jute_book".</p>
+
+                    <div class="container-fluid">
+                      <video width="100%" height="100%" style="border-color: #107004; border-style: solid; border-width: 5px;" controls=>
+                        <source src="../../Projects-and-University-Work/Videos/Second Year/CMP202 String Search.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <br>
+
+                    <p>I'm so proud of this program and had a lot of fun threading this algorithm. I set out to achieve speeding up Boyer-Moore-Horspool with threading and it turned out great. As you can see from the video, it searches the whole text file in 5 milliseconds even with a smaller word! Keep in mind this is also only running 6 threads, when 8 could be run.</p>
+
+                    <p>Although to note, the text is split leaving a range with decimal. For example 29562.8. In a very rare chance, the algorithm could actually skip over a word and not find the desired string due to this. This was one of the major errors of my program from threading it and I didn't have enough time to correct it. I never experienced this error during the project, but I was aware of its possibility.</p>
+                    
+                    <h2 style="text-decoration: underline">Timing</h2>
+                    <p>The below image displays the text file the program creates. The time is printed out in milliseconds. "BM_Timings" is Boyer-Moore-Horspool's results.</p>
+                    <div class="container-fluid"><img src="../../CSS/CMP202 Timings.PNG" class="img-fluid" width="200" height="200" alt="Timing files from the Program"></div>
+                    <br>
+
+                    <h2 style="text-decoration: underline">Presentation</h2>
+                    <p>In this presentation I have explained the mechanics of my program and further timing results with boxplots.</p>
+                    <p>Below is the PDF.</p> 
+                    <p style="color: red; text-decoration: underline;">Please DO NOT plagiarise my presentation. You will be caught, it's not worth it.</p>
+                    
+                   
+                    <embed src="https://drive.google.com/file/d/1cInfaCWklPSSHi0zxqzZTj-wXoPkABFf/preview" class="pdf" width="740px" height="800px" allow="autoplay">
+                  
+                    <br>
+                    <h2 style="text-decoration: underline"><> Code</h2>
+                    <p>If you would like to check out the code, or download and try yourself, have a look at the repository below.</p>                    
+                    <p style="color: red; text-decoration: underline;">Please DO NOT plagiarise my code. You will be caught, it's not worth it.</p>
+                    <p style="font-size: large;"> Project's Github Repository</p>
+                   
+                      <div class="col-sm-6 mx-auto">
+                        <div class="repo">
+                          <span id="icon_repos" style="font-size: medium; background-color: white;">
+                            <a href="https://github.com/Paddylonglegs/CMP202-Threaded-Boyer-Moore-Horspool-Algorithm" target="_blank" style="height: 20px; width: 20px;">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20">
+                              <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+                              </svg>
+                            </a>
+                          </span>
+                        </div> 
+                        <div class="repo">
+                          <a href="https://github.com/Paddylonglegs/CMP202-Threaded-Boyer-Moore-Horspool-Algorithm" target="_blank" id="repo-desc">CMP202 Threaded Boyer-Moore-Horspool Algorithm</a>
+                          <p id="repo-desc">Improving upon my term one project, I decided to thread Boyer-Moore-Horspool.</p>
+                        </div> 
+                      </div>
+                   
+                    <br>
+                    
+                </div>
+          </div>
+       </div>
+
+      <!-- Footer -->
+      <footer class="page-footer font-small navbar-custom pt-4" id="footer">
+        <div class="text-center navbar-custom" id="shadowtext">© 2021 Copyright:
+          <a> Patrick Collins </a>
+        </div>
+        <div class="text-center navbar-custom" id="shadowtext">Contact Me: PaddyCollins@hackermail.com</div>
+        <div class="text-center navbar-custom" id="shadowtext">
+          <a href='https://www.freepik.com/vectors/background' id="shadowtext" target="_blank">Background created by freepik</a>
+        </div>
+    </footer>
+  </div>
+</body> 
+
+</html>
+
+  
