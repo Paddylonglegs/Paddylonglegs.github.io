@@ -1,0 +1,797 @@
+<!doctype HTML>
+<html lang="en">
+  
+<head>
+    <title>Infosec Conferences - Paddylonglegs</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon"> <!--https://www.favicon.cc/?-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="All the infosec conferences Paddylonglegs(Patrick Collins) has attended">
+    <meta name="author" content="Patrick Collins">
+    <!-- Material Design Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!--CSS-->
+     <link rel="stylesheet" href="../../CSS/style.css">
+     <link rel="stylesheet" href="../../CSS/cookies.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!--Javascript-->
+    <script src="../../Scripts/script.js"></script>
+
+    <!--Cookies-->
+    <script type="text/javascript" src="../../Scripts/jquery.ihavecookies.min.js"></script> <!--https://github.com/ketanmistry/ihavecookies-->
+
+    <style>
+
+      .btn{
+        width:50%;
+        height: 100%;
+      }
+
+      div div .hacksoc{
+        width: 80%;
+        height: 80%;
+        object-fit: fill;
+      }
+
+      #scaleup{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+
+      #scaledown{
+        width:60%;
+        height:60%;
+      }
+
+      #scaledownlittle{
+        width:80%;
+        height:80%;
+      }
+
+      #scaledownalot{
+        width: 50%;
+        height: 50%;
+      }
+
+      .carousel-control-prev{
+        height: 75%;
+      }
+
+      .carousel-control-next{
+        height: 75%;
+      }
+
+    </style>
+
+    <!--Incase modal fails put this code at the end of body-->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body> 
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../../CSS/easteregg.png" alt="easteregg" height="36">
+        <img src="../../CSS/LEP.png" alt="Leprechaun" id="lep" style="margin-left: -41px;" height="36">
+      </a>
+      <li id="name">Patrick Collins</li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" id="navlinks" href="../../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../Blog/blog.html" id="navlinks">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle drop-background dropdown-custom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects and University Work
+            </a>
+            <ul class="dropdown-menu" style="color:white;" id="nav-background" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" style="color:white; text-shadow: 1px 1px #000000; font-weight: bold;" id="nav-background" href="https://paddylonglegs.site/Projects-and-University-Work/Second-Year/pentest.html">Penetration Test</a></li>
+              <li><a class="dropdown-item" style="color:white; text-shadow: 1px 1px #000000; font-weight: bold;" id="nav-background" href="https://paddylonglegs.site/Projects-and-University-Work/First-Year/enigma-bruteforce.html">Enigma Cipher Bruteforce</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" style="color:white; text-shadow: 1px 1px #000000; font-weight: bold;" id="nav-background" href="https://paddylonglegs.site/Projects-and-University-Work/projects.html">All projects</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../socialmedia.html" id="navlinks">Socials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../aboutme.html" id="navlinks">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="content-wrap">
+
+      <div class="container-fluid py-3">
+
+                    <!--Button Data Targets-->
+
+                    <div class="container-fluid py-3">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center">
+                                <h4 class="social-custom" style="text-align: center;color: rgb(0, 0, 0)">Infosec Conferences</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content-wrap">
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">
+                              <button type="button" class="btn social-custom" data-bs-toggle="modal" data-bs-target="#BSidesLeeds2020">
+                                BSidesLeeds 2020
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">
+                              <button type="button" class="btn social-custom" data-bs-toggle="modal" data-bs-target="#SecuriTay2020">
+                                Securi-Tay 2020
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">
+                              <button type="button" class="btn social-custom" data-bs-toggle="modal" data-bs-target="#BHEU21">
+                                Black Hat Europe 2021
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">     
+                              <button type="button" class="btn social-custom" data-bs-toggle="modal" data-bs-target="#BSidesLondon2021">
+                                BSidesLondon 2021
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">
+                              <button type="button" class="btn social-custom" data-bs-toggle="modal" data-bs-target="#SecuriTay2022"> 
+                                Securi-Tay 2022
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">     
+                              <button type="button" class="btn social-custom" data-bs-toggle="modal" data-bs-target="#BSidesDublin2022">
+                                BSidesDublin 2022
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">     
+                              <button type="button" class="btn social-custom" data-bs-toggle="modal" data-bs-target="#LTDH22">
+                                Le Tour Du Hack 2022
+                              </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center py-3">     
+                              <p class="social-custom" style="font-weight: bold;">If you are in any of these images and feel uncomfortable please contact me at PaddyCollins@hackermail.com or on <a href="https://twitter.com/Paddy_LongLegs" target="_blank">Twitter</a> and I will remove/crop/blur the photos immediately.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  <!-- Modals -->
+
+                  <!--BSidesLeeds2020-->
+                  <div class="modal fade" id="BSidesLeeds2020" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content social-custom">
+                        <div class="modal-header">
+                          <button type="button" class="close"  style="background-color: #107004; color: white;" data-bs-toggle="modal" data-bs-target="#BSidesLeeds2020" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="BsidesLeeds2020gal" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#BsidesLeeds2020gal" data-slide-to="0" class="active"></li>
+                              <li data-target="#BsidesLeeds2020gal" data-slide-to="1"></li>
+                              <li data-target="#BsidesLeeds2020gal" data-slide-to="2"></li>
+                              <li data-target="#BsidesLeeds2020gal" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img id="scaleup" src="leeds/bsidesLeeds2020.jpg" alt="Pre party with AbertayHackers and Enusec">
+                                <p><a href="https://twitter.com/CyberSophi" target="_blank">@CyberSophie</a> (Epic Photographer), <a href="https://twitter.com/Paddy_LongLegs" target="_blank">@Paddy_LongLegs</a>, @lewishh180, <a href="https://twitter.com/Angus_Outlander" target="_blank">@Angus_Outlander</a>,  <a href="https://twitter.com/ItWasNae_Me" target="_blank">@ItWasNae_Me</a>, <a href="https://twitter.com/h4ckerduck" target="_blank">@h4ckerduck</a>.</p>
+                                <p><a href="https://twitter.com/AbertayHackers" target="_blank">@AbertayHackers</a> and <a href="https://twitter.com/enusec" target="_blank">@enusec</a> gang!</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="leeds/pre-party-cake.jpg" alt="Pre Party cake">
+                                <p>Mmmm cake.</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledownlittle" src="leeds/hacksoc pic.jpg" alt="BsidesLeeds Hacksoc Picture">
+                                <p><a href="https://twitter.com/Sam1ser" target="_blank">@Sam1ser</a> (legend), <a href="https://twitter.com/Paddy_LongLegs" target="_blank">@Paddylonglegs</a>, <a href="https://twitter.com/CyberSophi" target="_blank">@CyberSophie</a>, <a href="https://twitter.com/h4ckerduck" target="_blank">@h4ckerduck</a>, @1s4be11a (Photographer!)</p>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#BsidesLeeds2020gal" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" style="background-color: #107004"aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#BsidesLeeds2020gal" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" style="background-color: #107004" aria-hidden="true"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" style="background-color: #107004" data-bs-toggle="modal" data-bs-target="#BSidesLeeds2020">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Securi-Tay 2020-->
+                  <div class="modal fade" id="SecuriTay2020" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content social-custom">
+                        <div class="modal-header">
+                          <button type="button" class="close"  style="background-color: #107004; color: white;" data-bs-toggle="modal" data-bs-target="#SecuriTay2020" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="Securi-Tay2020gal" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#Securi-Tay2020gal" data-slide-to="0" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active text-center">
+                                <img id="scaledownalot" src="Securi-Tay/2020/JamieTrackTwo.png" alt="MCing for Jamie Macdonald">
+                                <p>I volunteered to help out at Securi-Tay 2020 and accepted the role as Master of Ceremonies. Enjoy this very low quality image of me MCing for <a href="https://youtu.be/FwRGFe7MKco" target="blank">Jamie Macdonald</a>. Really enjoyed helping run our wee conference with <a href="https://twitter.com/AbertayHackers" target="_blank">@AbertayHackers</a> at Abertay University. </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" style="background-color: #107004" data-bs-toggle="modal" data-bs-target="#SecuriTay2020">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--BHEU21-->
+                  <div class="modal fade" id="BHEU21" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content social-custom">
+                        <div class="modal-header">
+                          <button type="button" class="close"  style="background-color: #107004; color: white;" data-bs-toggle="modal" data-bs-target="#BHEU21" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="BHEU21gal" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#BHEU21gal" data-slide-to="0" class="active"></li>
+                              <li data-target="#BHEU21gal" data-slide-to="1"></li>
+                              <li data-target="#BHEU21gal" data-slide-to="2"></li>
+                              <li data-target="#BHEU21gal" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item text-center active">
+                                <img id="scaledown" src="Black Hat Europe/TraintoLondon.JPG" alt="On train to london">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/entrance.JPG" alt="Excel entrance">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/ExcelDay.JPG" alt="Excel London Daytime">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/Registration.jpg" alt="BHEU Registration">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledownlittle" src="Black Hat Europe/day1keynote.JPG" alt="Day 1 BHEU Keynote">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/day1keynote no 2.JPG" alt="Day 1 Keynote Lights">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/BHEU.JPG" alt="BHEU Slides">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/HTTP2.JPG" alt="HTTP2 Talk">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledownlittle" src="Black Hat Europe/clientsolutions.JPG" alt="Client Solution slide">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/TSI.JPG" alt="Trusted Source Injection slide">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/Cybersum.JPG" alt="Summary slide">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/BusinessHall banner.JPG" alt="Business Hall Banner">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/Business Hall.JPG" alt="BHEU Business Hall">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/HTB.JPG" alt="HackTheBox Swag">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/HTBCTF.jpg" alt="HTB CTF challenge">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/day2keynote.JPG" alt="Day 2 Keynote - time">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/ExcelNight.JPG" alt="Excel London Night">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/ExcelStairs.JPG" alt="Excel London Stairs">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/London 1.JPG" alt="London Thames">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/LondonSkyline.JPG" alt="London Skyline">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/LondonEye.JPG" alt="London Eye from Thames">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/Parliament.JPG" alt="Parliament">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/LondonEye 2.JPG" alt="London Eye 1">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/LondonEye 1.JPG" alt="London Eye 2">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/beautifulskyline.JPG" alt="London Skyline">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/skyline 2.JPG" alt="London Skyline">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/skyline 3.JPG" alt="London Skyline">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/skyline 4.JPG" alt="London Skyline">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/skyline 5.JPG" alt="London Skyline">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/Parliament 2.JPG" alt="Parliament from London Eye">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/epicselfie.JPG" alt="Selfie on London Eye">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/SkylineLondonEye.JPG" alt="London Skyline">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/dontlookdown.JPG" alt="London Eye looking down">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/youlookeddown.JPG" alt="Close up London Eye looking down">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/AtTheEnd.JPG" alt="End of London Eye">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/park 2.JPG" alt="London Eye Park">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/park.JPG" alt="London Eye Park">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/MainBridge.JPG" alt="Bridge view from London Eye">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/LondonEyePin!.JPG" alt="London Eye enamel pin badge">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/ParliamentCloseUp.JPG" alt="Parliament close up">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/BenWhenHeWasDying.JPG" alt="Big Ben">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/LondonEye 3.JPG" alt="London Eye across water">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/LondonEye 4.JPG" alt="London Eye across water">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="Black Hat Europe/neverforget.JPG" alt="Monument to the RAF">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Black Hat Europe/BattleOfBritain.JPG" alt="Monument to the RAF">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <h2>That's it! My time down at BHEU and London.</h2>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <p>This was such a great experience and I'd say it won't be beaten for a long time. After coming out of lockdown, to attend Black Hat Europe as my first in person cyber security conference since the pandemic began was amazing. I'm very grateful for the opportunity <a href="https://twitter.com/BlackHatEvents" target="_blank">@BlackHatEvents</a> gave me.</p>
+                                <p>I recommend listening to <a href="https://youtu.be/WqxE-zppu30" target="_blank">"Wolf Alice - Don't Delete the Kisses"</a> if you're ever down in London yourself too. Those that get it, get it</p>
+                              </div>
+                          </div>
+                            <a class="carousel-control-prev" href="#BHEU21gal" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" style="background-color: #107004"aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#BHEU21gal" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" style="background-color: #107004" aria-hidden="true"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" style="background-color: #107004" data-bs-toggle="modal" data-bs-target="#BHEU21">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--BSidesLondon2021-->
+                  <div class="modal fade" id="BSidesLondon2021" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content social-custom">
+                        <div class="modal-header">
+                          <button type="button" class="close"  style="background-color: #107004; color: white;" data-bs-toggle="modal" data-bs-target="#BSidesLondon2021" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="BSidesLondon2021gal" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#BSidesLondon2021gal" data-slide-to="0" class="active"></li>
+                              <li data-target="#BSidesLondon2021gal" data-slide-to="1"></li>
+                              <li data-target="#BSidesLondon2021gal" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item text-center active">
+                                <img id="scaledown" src="bsidesLondon/police.JPG" alt="Police Box at Earls Court">
+                                <p>*Doctor Who theme tune starts playing*</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesLondon/lockpicking kit.JPG" alt="Lockpicking kit">
+                                <p>Lockpick Kit I got from <a href="https://toool.uk/" target="_blank">TOOOLUK</a> at BSidesLondon's lockpicking village.</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <p>Wish I took more photos at BSidesLondon.</p>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#BSidesLondon2021gal" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" style="background-color: #107004"aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#BSidesLondon2021gal" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" style="background-color: #107004" aria-hidden="true"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" style="background-color: #107004" data-bs-toggle="modal" data-bs-target="#BSidesLondon2021">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Securi-Tay 2022-->
+                  <div class="modal fade" id="SecuriTay2022" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content social-custom">
+                        <div class="modal-header">
+                          <button type="button" class="close"  style="background-color: #107004; color: white;" data-bs-toggle="modal" data-bs-target="#SecuriTay2022" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="SecuriTay2022gal" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#SecuriTay2022gal" data-slide-to="0" class="active"></li>
+                              <li data-target="#SecuriTay2022gal" data-slide-to="1" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img id="scaleup" src="Securi-Tay/2022/MC.jpg" alt="Mcing for Jamie Macdonald">
+                                <p>I volunteered unexpectedly at Securi-Tay X, and had the role of Master of Ceremonies again. Here's me with the main man <a href="https://www.youtube.com/watch?v=WzigS6CTZxw" target="_blank">Jamie Macdonald</a> back to speak at Securi-Tay once again. Was a pleasure to help out.</p>
+                              </div>
+                              <div class="carousel-item">
+                                <h3 class="text-center">Securi-Tay X Pre-Party</h3>
+                                <img id="scaleup" src="Securi-Tay/2022/Pre-Party Securi-TayX.jpg" alt="Securi-TayX Pre-Party">
+                                <p style="font-size: 16px;"> <a href="https://www.linkedin.com/in/paddy-collins/" target="_blank">Patrick Collins</a>,  <a href="https://www.linkedin.com/in/allena-matheson-dear-74498a146/" target="_blank">Allena Matheson-Dear</a>,  <a href="https://www.linkedin.com/in/izbr/" target="_blank">Isaac Basque-Rice</a>,  <a href="https://www.linkedin.com/in/jb46/" target="_blank">Jack Bowker</a>,  <a href="https://www.linkedin.com/in/soph-hall/" target="_blank">Sophie Hall</a>,  <a href="https://www.linkedin.com/in/hjanuszewski/" target="_blank">Hubert Januszewski</a>.</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="Securi-Tay/2022/meatball.jpg" alt="Meatball :)">
+                                <p>As I was volunteering I sadly didn't get photos of the event, but here's a photo of meatball to make up for it. AbertayHackers' best committee member since its inception.</p>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#SecuriTay2022gal" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" style="background-color: #107004"aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#SecuriTay2022gal" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" style="background-color: #107004" aria-hidden="true"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" style="background-color: #107004" data-bs-toggle="modal" data-bs-target="#SecuriTay2022">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--BSidesDublin2022-->
+                  <div class="modal fade" id="BSidesDublin2022" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content social-custom">
+                        <div class="modal-header">
+                          <button type="button" class="close"  style="background-color: #107004; color: white;" data-bs-toggle="modal" data-bs-target="#BSidesDublin2022" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="BSidesDublin2022gal" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#BSidesDublin2022gal" data-slide-to="0" class="active"></li>
+                              <li data-target="#BSidesDublin2022gal" data-slide-to="1"></li>
+                              <li data-target="#BSidesDublin2022gal" data-slide-to="2"></li>
+                              <li data-target="#BSidesDublin2022gal" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item text-center active">
+                                <img id="scaledown" src="bsidesDublin/moon.JPG" alt="Moon">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown"  id="scaledown" src="bsidesDublin/Bridge.JPG" alt="Train Bridge">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/Clouds.JPG" alt="Clouds hitting mountains">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/DublinAirport.jpeg" alt="Dublin Airport">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="bsidesDublin/IREUS.JPG" alt="IRE and US flag">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/ConventionCentre.JPG" alt="Dublin Convention Centre daytime">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/céad míle fáilte.JPG" alt="céad míle fáilte sign in Convention Centre">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" style="width: 100%; height:100%; object-fit: fill;" src="bsidesDublin/OGs.jpg" alt="Third slide">
+                                <p><a href="https://twitter.com/_rakesh_roshan" target="_blank">@_rakesh_roshan</a>, <a href="https://twitter.com/Paddy_LongLegs" target="_blank">@Paddy_LongLegs</a>, <a href="https://twitter.com/pwnnull" target="_blank">@pwnnull</a>.</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/Pwc.JPG" alt="Third slide">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/céad míle fáilte slides.JPG" alt="BSidesDublin opening remarks, céad míle fáilte.">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/céad míle fáilte slides 2.JPG" alt="BSidesDublin opening remarks, céad míle fáilte.">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" style="width: 80%; height:80%; object-fit: fill;" src="bsidesDublin/openingkeynote.jpg" alt="Opening Keynote">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <h3>The Dublin Squad</h3>
+                                <img id="scaledown" style="width: 100%; height:100%; object-fit: fill;" src="bsidesDublin/The Dublin Squad.jpg" alt="The Dublin Squad">
+                                <p><a href="https://www.linkedin.com/in/rakesh-roshan-b7823b130/" target="_blank">Rakesh Roshan</a>, <a href="https://www.linkedin.com/in/ankit-patel-399ba8138/" target="_blank">Ankit Patel</a>, <a href="https://www.linkedin.com/in/paddy-collins/" target="_blank">Patrick Collins</a>, <a href="https://www.linkedin.com/in/pankaj-singh-54a799172/" target="_blank">Pankaj Singh</a> <a href="https://www.linkedin.com/in/harshitsharma137/" target="_blank">Harshit Sharma</a>, <a href="https://www.linkedin.com/in/tushar-vaidya-2111s5/" target="_blank">Tushar Vaidya</a>.</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/CTF.JPG" alt="CTF leaderboard">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/HeadphoneWinners.JPG" alt="HeadphoneWinners">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/AfterParty.JPG" alt="AfterParty">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/SkylineDarkAesthetic.JPG" alt="Dublin Skyline Dark Aesthetic">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/SkylineBrightAesthetic.JPG" alt="Dublin Skyline Bright Aesthetic">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/Samuel Beckett Bridge.JPG" alt="Samuel Beckett Bridge">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/1845.JPG" alt="Famine Memorial">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/pain.JPG" alt="Famine Memorial">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/doggo.JPG" alt="Famine Memorial, doggo">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/Artist.JPG" alt="Famine Memorial Artist">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/arrgh.JPG" alt="Boat on River Liffey">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaleup" src="bsidesDublin/RiverLiffey.JPG" alt="River Liffey">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/CustomHouseSide.JPG" alt="CustomHouse Side">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown"  src="bsidesDublin/CustomHouseFront.JPG" alt="CustomHouse Front">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/CustomHouseClose.JPG" alt="CustomHouse Close up">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/SlavaUkraini.JPG" alt="Slava Ukraini">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <h3>Where's Paddy?</h3>
+                                <img id="scaleup" src="bsidesDublin/TempleBarThumb.jpg" alt="Temple Bar Thumbs up">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <h3>Where's Paddy V2?</h3>
+                                <img id="scaledownalot" src="bsidesDublin/TempleBarWave.jpg" alt="Temple Bar Waving">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/StPaddysTempleBar.JPG" alt="Temple Bar">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/TempleBarBusy.JPG" alt="Temple Bar">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/TempleBar.JPG" alt="Temple Bar">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/LilThemePark.JPG" alt="Theme park at Custom House">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/ConventionCentreNight.JPG" alt="Dublin Convention Centre at night">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/LilThemeParkDark.JPG" alt="Theme park at Custom House nighttime">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledown" src="bsidesDublin/Samuel Backett Bridge Night.JPG" alt="Samuel Backett Bridge Night">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <h2>That's it! My time at BSidesDublin and around Dublin.</h2>
+                                <p>I had such a good time down in Dublin. I met a lot of good people down that day, and was lovely to attend an infosec conference back in my homeland for a change.</p>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#BSidesDublin2022gal" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" style="background-color: #107004"aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#BSidesDublin2022gal" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" style="background-color: #107004" aria-hidden="true"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" style="background-color: #107004" data-bs-toggle="modal" data-bs-target="#BSidesDublin2022">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--LTDH22-->
+                  <div class="modal fade" id="LTDH22" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content social-custom">
+                        <div class="modal-header">
+                          <button type="button" class="close"  style="background-color: #107004; color: white;" data-bs-toggle="modal" data-bs-target="#LTDH22" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="LTDH22gal" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#LTDH22gal" data-slide-to="0" class="active"></li>
+                              <li data-target="#LTDH22gal" data-slide-to="1"></li>
+                              <li data-target="#LTDH22gal" data-slide-to="2"></li>
+                              <li data-target="#LTDH22gal" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item text-center active">
+                                <img id="scaledownlittle" src="LDTH22/LTDH22 Entrance.jpg" alt="LTDH entrance">
+                              </div>
+                              <div class="carousel-item text-center">
+                                <h3>Hacksoc Members at LTDH22!</h3>
+                                <img id="scaleup" src="LDTH22/AbertayHackers LTDH22.jpg" alt="AbertayHackers at LTDH22">
+                                <p><a href="https://www.linkedin.com/in/tia-c-302508140/" target="_blank">Tia Cotton</a>, <a href="https://www.linkedin.com/in/connormsmith02/" target="_blank">Connor Smith</a>, <a href="https://www.linkedin.com/in/revolvered/" target="_blank">Mykola Nesterenko</a>, <a href="https://www.linkedin.com/in/paddy-collins/" target="_blank">Patrick Collins</a>, <a href="https://www.linkedin.com/in/rudolf-s/" target="_blank">Rudolf Sims</a>, <a href="https://www.linkedin.com/in/peter-captain/" target="_blank">Peter Captain</a>.</p>
+                                <p>Thanks to <a href="https://twitter.com/Cyb34_DO" target="_blank">@Cyb34_DO</a> for taking the photo.</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <h3>Hacksoc Members at LTDH22!</h3>
+                                <img id="scaleup" src="LDTH22/AbertayHackers LTDH22 2.jpg" alt="AbertayHackers at LTDH22">
+                                <p><a href="https://www.linkedin.com/in/tia-c-302508140/" target="_blank">Tia Cotton</a>, <a href="https://www.linkedin.com/in/connormsmith02/" target="_blank">Connor Smith</a>, <a href="https://www.linkedin.com/in/revolvered/" target="_blank">Mykola Nesterenko</a>, <a href="https://www.linkedin.com/in/paddy-collins/" target="_blank">Patrick Collins</a>, <a href="https://www.linkedin.com/in/rudolf-s/" target="_blank">Rudolf Sims</a>, <a href="https://www.linkedin.com/in/peter-captain/" target="_blank">Peter Captain</a>.</p>
+                                <p>Thanks to <a href="https://twitter.com/Cyb34_DO" target="_blank">@Cyb34_DO</a> for taking the photo.</p>
+                              </div>
+                              <div class="carousel-item text-center">
+                                <img id="scaledownlittle" src="LDTH22/space.jpg" alt="Space talk at LTDH22">
+                              </div>
+                              <div class="carousel-item">
+                                <h3 class="text-center">Big thanks to AbertayHackers</h3>
+                                <br>
+                                <p class="text-center">I was able to attend LTDH22 thanks to <a href="https://twitter.com/AbertayHackers" target="_blank">@AbertayHackers</a>. So shout out to them for giving me the opportunity.</p>
+                                <p class="text-center">Really enjoyed talks from:</p>
+                                <br>
+                                <br>
+                                <br>
+                                  <li><a href="https://twitter.com/Tiaaa_C" target="_blank">@Tiaaa_C</a> - Practicing Safe Sex(t). I've tried many times to see Tia's talk but always seemed to miss it. When I seen she was going to present it one final time at Le Tour Du Hack I made it my mission to not miss it this time. I really enjoyed the talk and was very well presented. Very thought-provoking stuff was shown. </li>
+                                  <li><a href="https://twitter.com/PyroGuy_UK" target="_blank">@PyroGuy_UK</a> - Cyber Security Community in Scotland + 3 key things I wish I had known 20 years ago. The message for this talk was brilliant. The cyber security community is very close and this talk highlighted it. To remind attendees that we should continue to engage with one another and even go further in the future. It was a really nice talk to start of the conference.</li>
+                                  <li><a href="https://twitter.com/Cyb34_DO" target="_blank">@Cyb34_DO</a> - An unexpected Journey into Cybersecurity. Very informative talk on the role of a security analyst. Various portals were discussed including Azure Sentinel, Defender for Endpoint, Identity and Cloud. Took a lot away from this talk. </li>
+                                  <li><a href="https://twitter.com/hopkira" target="_blank">@hopkira</a> - Quantum Computing. Finally, this was a fun closing keynote. Admittedly I missed quite a lot of this talk. However from what I was able to see it was mad fascinating. I heard some algorithms being mentioned which is a topic I'm interested in. Looking forward to seeing the recording for what I missed in it.</li>
+                                  <p class="text-center">Again thanks to <a href="https://twitter.com/AbertayHackers" target="_blank">@AbertayHackers</a> :).</p>
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" style="height:40%" href="#LTDH22gal" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" style="background-color: #107004"aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" style="height:40%" href="#LTDH22gal" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" style="background-color: #107004" aria-hidden="true"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" style="background-color: #107004" data-bs-toggle="modal" data-bs-target="#LTDH22">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+       </div>
+
+      <!-- Footer -->
+      <footer class="page-footer font-small navbar-custom pt-4" id="footer">
+        <div class="text-center navbar-custom" id="shadowtext">© 2022 Copyright:
+          <a> Patrick Collins </a>
+        </div>
+        <div class="text-center navbar-custom" id="shadowtext">Contact Me: PaddyCollins@hackermail.com</div>
+        <div class="text-center navbar-custom" id="shadowtext">
+          <a href='https://www.freepik.com/vectors/background' id="shadowtext" target="_blank">Background created by freepik</a>
+        </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body> 
+
+</html>
+
+  
